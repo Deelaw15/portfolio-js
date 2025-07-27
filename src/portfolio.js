@@ -23,7 +23,7 @@ const greeting = {
   username: "Faruq Lawal",
   title: "Hi all, I'm Faruq",
   subTitle: emoji(
-    "A passionate Full Stack Data Scientist 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    " An impact-driven Data Scientist 🧠 with hands-on experience building churn prediction tools, fraud detection systems, and data dashboards using Python, SQL, PowerBi and MLops tools"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Deelaw15",
+  linkedin: "https://www.linkedin.com/in/faruq-lawal-710871266/",
+  gmail: "lawalfaruq50@gmail.com",
+  medium: "https://medium.com/@lawalfaruq50",
+  stackoverflow: "https://stackoverflow.com/users/31158525/deelaw",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
