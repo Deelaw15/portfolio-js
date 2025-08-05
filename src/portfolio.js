@@ -47,14 +47,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Data Scientist passionate about machine learning, MLOps, and building intelligent systems that drive business impact.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🔍 Build predictive models using machine learning to solve real-world problems."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    emoji("⚙️ Deploy end-to-end ML workflows and model monitoring systems with MLOps best practices."),
+    emoji("📊 Deliver actionable insights using Python, SQL, and dashboarding tools."
     )
   ],
 
@@ -62,85 +61,90 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python",
+  },
+  {
+    skillName: "SQL",
+    fontAwesomeClassname: "fas fa-database",
+  },
+  {
+    skillName: "Scikit-learn",
+    fontAwesomeClassname: "fas fa-brain", // for ML
+  },
+  {
+    skillName: "TensorFlow",
+    fontAwesomeClassname: "fas fa-network-wired",
+  },
+  {
+    skillName: "Docker",
+    fontAwesomeClassname: "fab fa-docker",
+  },
+  {
+    skillName: "AWS",
+    fontAwesomeClassname: "fab fa-aws",
+  },
+   {
+    skillName: "Node.js",
+    fontAwesomeClassname: "fab fa-node-js",
+  },
+  {
+  skillName: "Power BI",
+  fontAwesomeClassname: "fas fa-chart-bar",  // placeholder
+},
+{
+  skillName: "Tableau",
+  fontAwesomeClassname: "fas fa-chart-pie",  // placeholder
+},
+  {
+    skillName: "Git",
+    fontAwesomeClassname: "fab fa-git-alt",
+  },
+  {
+    skillName: "Linux",
+    fontAwesomeClassname: "fab fa-linux",
+  },
+  {
+    skillName: "Streamlit",
+    fontAwesomeClassname: "fas fa-code", // generic if icon not available
+  },
+  {
+    skillName: "MLflow",
+    fontAwesomeClassname: "fas fa-cogs", // generic
+  }
+],
   display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Portsmouth",
+      logo: require("./assets/images/uopp.png"),
+      subHeader: "Master of Science in Civil Engineering",
+      duration: "September 2023 - May 2014",
+      desc: "Leveraged data analytics to research fiber optics adoption in the construction industry, combining qualitative insights with quantitative analysis.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Conducted and analyzed industry expert surveys using data visualization techniques to identify adoption trends",
+        "Performed statistical analysis on survey responses to quantify implementation barriers and opportunities",
+        "Created data-driven recommendations using charts and visualizations to communicate findings effectively"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Osun State University",
+      logo: require("./assets/images/osu.png"),
+      subHeader: "Bachelor of Engineering in Civil Engineering",
+      duration: "September 2014 - April 2019",
+      desc: "Graduated in top 10% of class. Conducted research on soil improvement techniques through additive testing.",
+      descBullets: [
+        "Performed extensive soil testing to analyze the impact of various additives on soil properties",
+        "Investigated soil stabilization methods and their effects on construction quality",
+        "Applied data analysis to evaluate and compare different soil treatment approaches"
+      ]
     }
   ]
 };
@@ -151,16 +155,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Data Science & ML", // Strong in core DS/ML skills
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Data Visualization",
+      progressPercentage: "80%"  // PowerBI, Tableau, Streamlit expertise
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "MLOps & Cloud Infrastructure",
+      progressPercentage: "60%"  // Docker, AWS, MLflow skills
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -172,10 +176,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Freelance Data Scientist",
+      company: "Self-Emloyed",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      date: "April 2024 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -183,19 +187,12 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Data Analyst",
+      company: "Quantum Analytics",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      date: "February 2023 – April 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -210,35 +207,64 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Featured Projects",
+  subtitle: "DATA SCIENCE AND MACHINE LEARNING SOLUTIONS WITH BUSINESS IMPACT",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/vodaphone.webp"),
+      projectName: "Vodafone Customer Churn Prediction",
+      projectDesc: "Developed an NLP-powered churn prediction system analyzing TrustPilot reviews. Built retention strategies using advanced ML techniques and deployed on HuggingFace.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Project",
+          url: "https://github.com/Deelaw15/Vodaphone-Customer-Churn.git"
+        },
+        {
+          name: "Live Demo",
+          url: "https://huggingface.co/spaces/Deelaw15/SmartRetain"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/construction.avif"),
+      projectName: "Construction Delay Predictor",
+      projectDesc: "Created a machine learning model to predict construction project delays. Built interactive dashboard using Streamlit for real-time delay risk assessment.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Project",
+          url: "https://github.com/Deelaw15/Construction-Delay-Analysis.git"
+        },
+        {
+          name: "Live Demo",
+          url: "https://construction-delay-estimator.streamlit.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/fraud.jpg"),
+      projectName: "Credit Card Fraud Detection",
+      projectDesc: "Implemented end-to-end fraud detection system using SQL for data processing and PowerBI for real-time monitoring dashboards.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://drive.google.com/file/d/1nh1oj13aIOlJEqY830gNzkxU5iehYopz/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/british.png"),
+      projectName: "British Airways Customer Insights",
+      projectDesc: "End-to-end analysis from web scraping reviews to predictive modeling, delivering actionable customer insights.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/Deelaw15/British-Airways.git"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
-};
+  display: true
+};;
 
 // Achievement Section
 // Include certificates, talks etc
@@ -370,8 +396,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+44-7407-279197",
+  email_address: "lawalfaruq50@gmail.com"
 };
 
 // Twitter Section
