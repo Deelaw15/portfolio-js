@@ -173,26 +173,34 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
       role: "Freelance Data Scientist",
-      company: "Self-Emloyed",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      company: "Self-Employed",
+      companylogo: require("./assets/images/freelancer.png"),  // Update with appropriate logo
       date: "April 2024 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Provide end-to-end data science solutions for clients across various industries, focusing on machine learning implementation and data-driven decision making.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed and deployed customer churn prediction models using NLP and machine learning techniques",
+        "Created interactive dashboards and visualizations using PowerBI and Streamlit for data-driven insights",
+        "Implemented MLOps best practices using Docker and AWS for model deployment and monitoring",
+        "Collaborated with clients to understand business requirements and deliver impactful solutions"
       ]
     },
     {
       role: "Data Analyst",
       company: "Quantum Analytics",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/quantum.jpg"),  // Update with appropriate logo
       date: "February 2023 – April 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+      desc: "Led data analysis initiatives and developed automated reporting solutions to drive business insights.",
+      descBullets: [
+        "Built and maintained SQL databases for efficient data processing and analysis",
+        "Designed PowerBI dashboards for real-time monitoring of key business metrics",
+        "Conducted statistical analysis to identify trends and patterns in business data",
+        "Collaborated with cross-functional teams to implement data-driven solutions"
+      ]
+    }
   ]
 };
 
@@ -270,56 +278,65 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: emoji("Achievements And Certifications 🏆"),
+  subtitle: "Professional certifications and accomplishments that showcase my continuous learning journey",
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "British Airways Data Science Job Simulation",
+      subtitle: "Completed advanced data science simulation focusing on customer behavior analysis and predictive modeling",
+      image: require("./assets/images/british.png"), // Add British Airways logo
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certificate",
+          url: "YOUR_CERTIFICATE_LINK"
         }
+      ],
+      descBullets: [
+        "Built predictive models achieving 80% accuracy for customer buying behavior",
+        "Performed web scraping and analysis of customer review data",
+        "Delivered data-driven insights for business decision making"
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Quantum Analytics Data Analyst Professional Certificate",
+      subtitle: "Comprehensive data analytics certification covering key industry tools",
+      image: require("./assets/images/quantum.jpg"), // Add Quantum Analytics logo
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "YOUR_CERTIFICATE_LINK"
         }
+      ],
+      descBullets: [
+        "Mastered Excel, SQL, and PowerBI for data analysis",
+        "Developed expertise in data visualization techniques",
+        "Applied analytical skills in real-world business scenarios"
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "IBM Data Analytics Basics",
+      subtitle: "EdX E-learning certification in data analytics fundamentals",
+      image: require("./assets/images/ibm.png"), // Add IBM logo
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Certificate",
+          url: "YOUR_CERTIFICATE_LINK"
+        }
+      ],
+      descBullets: [
+        "Data collection and cleaning methodologies",
+        "Advanced visualization techniques",
+        "Data interpretation and analysis"
+      ]
+    },
+    {
+      title: "Introduction to Modern AI",
+      subtitle: "Cisco certification in artificial intelligence fundamentals",
+      image: require("./assets/images/cisco.png"), // Add Cisco logo
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "YOUR_CERTIFICATE_LINK"
         }
       ]
     }
