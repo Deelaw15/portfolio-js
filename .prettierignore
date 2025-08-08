@@ -1,4 +1,9 @@
-src/serviceWorker.js
+build/
+dist/
+node_modules/
 package-lock.json
-src/assets/lottie
+src/assets/lottie/
+src/serviceWorker.js
+.DS_Store
+coverage/
 

@@ -67,7 +67,7 @@ if (USE_GITHUB_DATA === "true") {
     }
   };
 
-  const req = https.request(default_options, res => {
+  const req = https.request(default_options, (res) => {
     let data = "";
 
     console.log(`statusCode: ${res.statusCode}`);
@@ -75,7 +75,7 @@ if (USE_GITHUB_DATA === "true") {
       throw new Error(ERR.requestFailed);
     }
 
-    res.on("data", d => {
+    res.on("data", (d) => {
       data += d;
     });
     res.on("end", () => {
@@ -86,7 +86,7 @@ if (USE_GITHUB_DATA === "true") {
     });
   });
 
-  req.on("error", error => {
+  req.on("error", (error) => {
     throw error;
   });
 
@@ -103,7 +103,7 @@ if (MEDIUM_USERNAME !== undefined) {
     method: "GET"
   };
 
-  const req = https.request(options, res => {
+  const req = https.request(options, (res) => {
     let mediumData = "";
 
     console.log(`statusCode: ${res.statusCode}`);
@@ -111,7 +111,7 @@ if (MEDIUM_USERNAME !== undefined) {
       throw new Error(ERR.requestMediumFailed);
     }
 
-    res.on("data", d => {
+    res.on("data", (d) => {
       mediumData += d;
     });
     res.on("end", () => {
@@ -122,7 +122,7 @@ if (MEDIUM_USERNAME !== undefined) {
     });
   });
 
-  req.on("error", error => {
+  req.on("error", (error) => {
     throw error;
   });
 
