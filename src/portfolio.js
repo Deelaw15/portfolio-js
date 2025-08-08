@@ -61,59 +61,59 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-  {
-    skillName: "Python",
-    fontAwesomeClassname: "fab fa-python",
-  },
-  {
-    skillName: "SQL",
-    fontAwesomeClassname: "fas fa-database",
-  },
-  {
-    skillName: "Scikit-learn",
-    fontAwesomeClassname: "fas fa-brain", // for ML
-  },
-  {
-    skillName: "TensorFlow",
-    fontAwesomeClassname: "fas fa-network-wired",
-  },
-  {
-    skillName: "Docker",
-    fontAwesomeClassname: "fab fa-docker",
-  },
-  {
-    skillName: "AWS",
-    fontAwesomeClassname: "fab fa-aws",
-  },
-   {
-    skillName: "Node.js",
-    fontAwesomeClassname: "fab fa-node-js",
-  },
-  {
-  skillName: "Power BI",
-  fontAwesomeClassname: "fas fa-chart-bar",  // placeholder
-},
-{
-  skillName: "Tableau",
-  fontAwesomeClassname: "fas fa-chart-pie",  // placeholder
-},
-  {
-    skillName: "Git",
-    fontAwesomeClassname: "fab fa-git-alt",
-  },
-  {
-    skillName: "Linux",
-    fontAwesomeClassname: "fab fa-linux",
-  },
-  {
-    skillName: "Streamlit",
-    fontAwesomeClassname: "fas fa-code", // generic if icon not available
-  },
-  {
-    skillName: "MLflow",
-    fontAwesomeClassname: "fas fa-cogs", // generic
-  }
-],
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python",
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database",
+    },
+    {
+      skillName: "Scikit-learn",
+      fontAwesomeClassname: "fas fa-brain", // for ML
+    },
+    {
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "fas fa-network-wired",
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker",
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws",
+    },
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node-js",
+    },
+    {
+      skillName: "Power BI",
+      fontAwesomeClassname: "fas fa-chart-bar",  // placeholder
+    },
+    {
+      skillName: "Tableau",
+      fontAwesomeClassname: "fas fa-chart-pie",  // placeholder
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt",
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux",
+    },
+    {
+      skillName: "Streamlit",
+      fontAwesomeClassname: "fas fa-code", // generic if icon not available
+    },
+    {
+      skillName: "MLflow",
+      fontAwesomeClassname: "fas fa-cogs", // generic
+    }
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
