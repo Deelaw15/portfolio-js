@@ -47,13 +47,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Data Scientist passionate about machine learning, MLOps, and building intelligent systems that drive business impact.",
+  subTitle:
+    "Data Scientist passionate about machine learning, MLOps, and building intelligent systems that drive business impact.",
   skills: [
     emoji(
       "🔍 Build predictive models using machine learning to solve real-world problems."
     ),
-    emoji("⚙️ Deploy end-to-end ML workflows and model monitoring systems with MLOps best practices."),
-    emoji("📊 Deliver actionable insights using Python, SQL, and dashboarding tools."
+    emoji(
+      "⚙️ Deploy end-to-end ML workflows and model monitoring systems with MLOps best practices."
+    ),
+    emoji(
+      "📊 Deliver actionable insights using Python, SQL, and dashboarding tools."
     )
   ],
 
@@ -63,55 +67,55 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Python",
-      fontAwesomeClassname: "fab fa-python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "Scikit-learn",
-      fontAwesomeClassname: "fas fa-brain", // for ML
+      fontAwesomeClassname: "fas fa-brain" // for ML
     },
     {
       skillName: "TensorFlow",
-      fontAwesomeClassname: "fas fa-network-wired",
+      fontAwesomeClassname: "fas fa-network-wired"
     },
     {
       skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
     {
       skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "Node.js",
-      fontAwesomeClassname: "fab fa-node-js",
+      fontAwesomeClassname: "fab fa-node-js"
     },
     {
       skillName: "Power BI",
-      fontAwesomeClassname: "fas fa-chart-bar",  // placeholder
+      fontAwesomeClassname: "fas fa-chart-bar" // placeholder
     },
     {
       skillName: "Tableau",
-      fontAwesomeClassname: "fas fa-chart-pie",  // placeholder
+      fontAwesomeClassname: "fas fa-chart-pie" // placeholder
     },
     {
       skillName: "Git",
-      fontAwesomeClassname: "fab fa-git-alt",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
       skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
       skillName: "Streamlit",
-      fontAwesomeClassname: "fas fa-code", // generic if icon not available
+      fontAwesomeClassname: "fas fa-code" // generic if icon not available
     },
     {
       skillName: "MLflow",
-      fontAwesomeClassname: "fas fa-cogs", // generic
+      fontAwesomeClassname: "fas fa-cogs" // generic
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -160,11 +164,11 @@ const techStack = {
     },
     {
       Stack: "Data Visualization",
-      progressPercentage: "80%"  // PowerBI, Tableau, Streamlit expertise
+      progressPercentage: "80%" // PowerBI, Tableau, Streamlit expertise
     },
     {
       Stack: "MLOps & Cloud Infrastructure",
-      progressPercentage: "60%"  // Docker, AWS, MLflow skills
+      progressPercentage: "60%" // Docker, AWS, MLflow skills
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -178,7 +182,7 @@ const workExperiences = {
     {
       role: "Freelance Data Scientist",
       company: "Self-Employed",
-      companylogo: require("./assets/images/freelancer.png"),  // Update with appropriate logo
+      companylogo: require("./assets/images/freelancer.png"), // Update with appropriate logo
       date: "April 2024 – Present",
       desc: "Provide end-to-end data science solutions for clients across various industries, focusing on machine learning implementation and data-driven decision making.",
       descBullets: [
@@ -191,7 +195,7 @@ const workExperiences = {
     {
       role: "Data Analyst",
       company: "Quantum Analytics",
-      companylogo: require("./assets/images/quantum.jpg"),  // Update with appropriate logo
+      companylogo: require("./assets/images/quantum.jpg"), // Update with appropriate logo
       date: "February 2023 – April 2024",
       desc: "Led data analysis initiatives and developed automated reporting solutions to drive business insights.",
       descBullets: [
@@ -221,7 +225,8 @@ const bigProjects = {
     {
       image: require("./assets/images/vodaphone.webp"),
       projectName: "Vodafone Customer Churn Prediction",
-      projectDesc: "Developed an NLP-powered churn prediction system analyzing TrustPilot reviews. Built retention strategies using advanced ML techniques and deployed on HuggingFace.",
+      projectDesc:
+        "Developed an NLP-powered churn prediction system analyzing TrustPilot reviews. Built retention strategies using advanced ML techniques and deployed on HuggingFace.",
       footerLink: [
         {
           name: "View Project",
@@ -236,7 +241,8 @@ const bigProjects = {
     {
       image: require("./assets/images/construction.avif"),
       projectName: "Construction Delay Predictor",
-      projectDesc: "Created a machine learning model to predict construction project delays. Built interactive dashboard using Streamlit for real-time delay risk assessment.",
+      projectDesc:
+        "Created a machine learning model to predict construction project delays. Built interactive dashboard using Streamlit for real-time delay risk assessment.",
       footerLink: [
         {
           name: "View Project",
@@ -251,7 +257,8 @@ const bigProjects = {
     {
       image: require("./assets/images/fraud.jpg"),
       projectName: "Credit Card Fraud Detection",
-      projectDesc: "Implemented end-to-end fraud detection system using SQL for data processing and PowerBI for real-time monitoring dashboards.",
+      projectDesc:
+        "Implemented end-to-end fraud detection system using SQL for data processing and PowerBI for real-time monitoring dashboards.",
       footerLink: [
         {
           name: "View Project",
@@ -262,7 +269,8 @@ const bigProjects = {
     {
       image: require("./assets/images/british.png"),
       projectName: "British Airways Customer Insights",
-      projectDesc: "End-to-end analysis from web scraping reviews to predictive modeling, delivering actionable customer insights.",
+      projectDesc:
+        "End-to-end analysis from web scraping reviews to predictive modeling, delivering actionable customer insights.",
       footerLink: [
         {
           name: "View Project",
@@ -272,18 +280,20 @@ const bigProjects = {
     }
   ],
   display: true
-};;
+};
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆"),
-  subtitle: "Professional certifications and accomplishments that showcase my continuous learning journey",
+  subtitle:
+    "Professional certifications and accomplishments that showcase my continuous learning journey",
   achievementsCards: [
     {
       title: "British Airways Data Science Job Simulation",
-      subtitle: "Completed advanced data science simulation focusing on customer behavior analysis and predictive modeling",
+      subtitle:
+        "Completed advanced data science simulation focusing on customer behavior analysis and predictive modeling",
       image: require("./assets/images/british.png"), // Add British Airways logo
       footerLink: [
         {
@@ -299,7 +309,8 @@ const achievementSection = {
     },
     {
       title: "Quantum Analytics Data Analyst Professional Certificate",
-      subtitle: "Comprehensive data analytics certification covering key industry tools",
+      subtitle:
+        "Comprehensive data analytics certification covering key industry tools",
       image: require("./assets/images/quantum.jpg"), // Add Quantum Analytics logo
       footerLink: [
         {
@@ -354,12 +365,15 @@ const blogSection = {
     {
       url: "https://medium.com/@lawalfaruq50/improving-airline-bookings-through-predictive-analytics-39df4b3f4f29",
       title: "Improving Airline Bookings Through Predictive Analytics",
-      description: "Analysis of airline customer behavior using predictive modeling to enhance booking rates and customer experience."
+      description:
+        "Analysis of airline customer behavior using predictive modeling to enhance booking rates and customer experience."
     },
     {
       url: "https://medium.com/@lawalfaruq50/salary-prediction-with-machine-learning-analyzing-job-market-trends-using-glassdoor-data-6921796ae98b",
-      title: "Salary Prediction with Machine Learning: Analyzing Job Market Trends",
-      description: "Exploring salary trends and predictions using machine learning on Glassdoor dataset to understand job market dynamics."
+      title:
+        "Salary Prediction with Machine Learning: Analyzing Job Market Trends",
+      description:
+        "Exploring salary trends and predictions using machine learning on Glassdoor dataset to understand job market dynamics."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -418,6 +432,6 @@ export {
   twitterDetails,
   isHireable,
   resumeSection,
-  talkSection,    // Add this
-  podcastSection  // Add this
+  talkSection, // Add this
+  podcastSection // Add this
 };
