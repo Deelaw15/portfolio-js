@@ -1,0 +1,23 @@
+.more-projects-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.general-btn {
+  text-decoration: none;
+  color: #fff;
+  background: var(--button-color);
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  font-size: 1.1rem;
+  
+  &:hover {
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+}
