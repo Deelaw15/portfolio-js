@@ -10,13 +10,13 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000, // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true, // Set to false to use static SVG
 };
 
 const greeting = {
@@ -25,9 +25,8 @@ const greeting = {
   subTitle: emoji(
     " An impact-driven Data Scientist 🧠 with hands-on experience building churn prediction tools, fraud detection systems, and data dashboards using Python, SQL, PowerBi and MLops tools"
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -40,7 +39,7 @@ const socialMediaLinks = {
   stackoverflow: "https://stackoverflow.com/users/31158525/deelaw",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
@@ -50,15 +49,11 @@ const skillsSection = {
   subTitle:
     "Data Scientist passionate about machine learning, MLOps, and building intelligent systems that drive business impact.",
   skills: [
-    emoji(
-      "🔍 Build predictive models using machine learning to solve real-world problems."
-    ),
+    emoji("🔍 Build predictive models using machine learning to solve real-world problems."),
     emoji(
       "⚙️ Deploy end-to-end ML workflows and model monitoring systems with MLOps best practices."
     ),
-    emoji(
-      "📊 Deliver actionable insights using Python, SQL, and dashboarding tools."
-    )
+    emoji("📊 Deliver actionable insights using Python, SQL, and dashboarding tools."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -67,58 +62,58 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fab fa-python",
     },
     {
       skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "Scikit-learn",
-      fontAwesomeClassname: "fas fa-brain" // for ML
+      fontAwesomeClassname: "fas fa-brain", // for ML
     },
     {
       skillName: "TensorFlow",
-      fontAwesomeClassname: "fas fa-network-wired"
+      fontAwesomeClassname: "fas fa-network-wired",
     },
     {
       skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
+      fontAwesomeClassname: "fab fa-docker",
     },
     {
       skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
+      fontAwesomeClassname: "fab fa-aws",
     },
     {
       skillName: "Node.js",
-      fontAwesomeClassname: "fab fa-node-js"
+      fontAwesomeClassname: "fab fa-node-js",
     },
     {
       skillName: "Power BI",
-      fontAwesomeClassname: "fas fa-chart-bar" // placeholder
+      fontAwesomeClassname: "fas fa-chart-bar", // placeholder
     },
     {
       skillName: "Tableau",
-      fontAwesomeClassname: "fas fa-chart-pie" // placeholder
+      fontAwesomeClassname: "fas fa-chart-pie", // placeholder
     },
     {
       skillName: "Git",
-      fontAwesomeClassname: "fab fa-git-alt"
+      fontAwesomeClassname: "fab fa-git-alt",
     },
     {
       skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux"
+      fontAwesomeClassname: "fab fa-linux",
     },
     {
       skillName: "Streamlit",
-      fontAwesomeClassname: "fas fa-code" // generic if icon not available
+      fontAwesomeClassname: "fas fa-code", // generic if icon not available
     },
     {
       skillName: "MLflow",
-      fontAwesomeClassname: "fas fa-cogs" // generic
-    }
+      fontAwesomeClassname: "fas fa-cogs", // generic
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -135,8 +130,8 @@ const educationInfo = {
       descBullets: [
         "Conducted and analyzed industry expert surveys using data visualization techniques to identify adoption trends",
         "Performed statistical analysis on survey responses to quantify implementation barriers and opportunities",
-        "Created data-driven recommendations using charts and visualizations to communicate findings effectively"
-      ]
+        "Created data-driven recommendations using charts and visualizations to communicate findings effectively",
+      ],
     },
     {
       schoolName: "Osun State University",
@@ -147,10 +142,10 @@ const educationInfo = {
       descBullets: [
         "Performed extensive soil testing to analyze the impact of various additives on soil properties",
         "Investigated soil stabilization methods and their effects on construction quality",
-        "Applied data analysis to evaluate and compare different soil treatment approaches"
-      ]
-    }
-  ]
+        "Applied data analysis to evaluate and compare different soil treatment approaches",
+      ],
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -160,18 +155,18 @@ const techStack = {
   experience: [
     {
       Stack: "Data Science & ML", // Strong in core DS/ML skills
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Data Visualization",
-      progressPercentage: "80%" // PowerBI, Tableau, Streamlit expertise
+      progressPercentage: "80%", // PowerBI, Tableau, Streamlit expertise
     },
     {
       Stack: "MLOps & Cloud Infrastructure",
-      progressPercentage: "60%" // Docker, AWS, MLflow skills
-    }
+      progressPercentage: "60%", // Docker, AWS, MLflow skills
+    },
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -189,8 +184,8 @@ const workExperiences = {
         "Developed and deployed customer churn prediction models using NLP and machine learning techniques",
         "Created interactive dashboards and visualizations using PowerBI and Streamlit for data-driven insights",
         "Implemented MLOps best practices using Docker and AWS for model deployment and monitoring",
-        "Collaborated with clients to understand business requirements and deliver impactful solutions"
-      ]
+        "Collaborated with clients to understand business requirements and deliver impactful solutions",
+      ],
     },
     {
       role: "Data Analyst",
@@ -202,10 +197,10 @@ const workExperiences = {
         "Built and maintained SQL databases for efficient data processing and analysis",
         "Designed PowerBI dashboards for real-time monitoring of key business metrics",
         "Conducted statistical analysis to identify trends and patterns in business data",
-        "Collaborated with cross-functional teams to implement data-driven solutions"
-      ]
-    }
-  ]
+        "Collaborated with cross-functional teams to implement data-driven solutions",
+      ],
+    },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -213,7 +208,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -230,13 +225,13 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Project",
-          url: "https://github.com/Deelaw15/Vodaphone-Customer-Churn.git"
+          url: "https://github.com/Deelaw15/Vodaphone-Customer-Churn.git",
         },
         {
           name: "Live Demo",
-          url: "https://huggingface.co/spaces/Deelaw15/SmartRetain"
-        }
-      ]
+          url: "https://huggingface.co/spaces/Deelaw15/SmartRetain",
+        },
+      ],
     },
     {
       image: require("./assets/images/construction.avif"),
@@ -246,13 +241,13 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Project",
-          url: "https://github.com/Deelaw15/Construction-Delay-Analysis.git"
+          url: "https://github.com/Deelaw15/Construction-Delay-Analysis.git",
         },
         {
           name: "Live Demo",
-          url: "https://construction-delay-estimator.streamlit.app/"
-        }
-      ]
+          url: "https://construction-delay-estimator.streamlit.app/",
+        },
+      ],
     },
     {
       image: require("./assets/images/fraud.jpg"),
@@ -262,9 +257,9 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Project",
-          url: "https://drive.google.com/file/d/1nh1oj13aIOlJEqY830gNzkxU5iehYopz/view?usp=sharing"
-        }
-      ]
+          url: "https://drive.google.com/file/d/1nh1oj13aIOlJEqY830gNzkxU5iehYopz/view?usp=sharing",
+        },
+      ],
     },
     {
       image: require("./assets/images/british.png"),
@@ -274,17 +269,17 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Project",
-          url: "https://github.com/Deelaw15/British-Airways.git"
-        }
-      ]
-    }
+          url: "https://github.com/Deelaw15/British-Airways.git",
+        },
+      ],
+    },
   ],
   moreProjects: {
     title: "More Projects",
     link: "https://github.com/Deelaw15",
-    buttonText: "View More Projects"
+    buttonText: "View More Projects",
   },
-  display: true
+  display: true,
 };
 
 // Achievement Section
@@ -303,31 +298,30 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certificate",
-          url: "YOUR_CERTIFICATE_LINK"
-        }
+          url: "YOUR_CERTIFICATE_LINK",
+        },
       ],
       descBullets: [
         "Built predictive models achieving 80% accuracy for customer buying behavior",
         "Performed web scraping and analysis of customer review data",
-        "Delivered data-driven insights for business decision making"
-      ]
+        "Delivered data-driven insights for business decision making",
+      ],
     },
     {
       title: "Quantum Analytics Data Analyst Professional Certificate",
-      subtitle:
-        "Comprehensive data analytics certification covering key industry tools",
+      subtitle: "Comprehensive data analytics certification covering key industry tools",
       image: require("./assets/images/quantum.jpg"), // Add Quantum Analytics logo
       footerLink: [
         {
           name: "View Certificate",
-          url: "YOUR_CERTIFICATE_LINK"
-        }
+          url: "YOUR_CERTIFICATE_LINK",
+        },
       ],
       descBullets: [
         "Mastered Excel, SQL, and PowerBI for data analysis",
         "Developed expertise in data visualization techniques",
-        "Applied analytical skills in real-world business scenarios"
-      ]
+        "Applied analytical skills in real-world business scenarios",
+      ],
     },
     {
       title: "IBM Data Analytics Basics",
@@ -336,14 +330,14 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certificate",
-          url: "YOUR_CERTIFICATE_LINK"
-        }
+          url: "YOUR_CERTIFICATE_LINK",
+        },
       ],
       descBullets: [
         "Data collection and cleaning methodologies",
         "Advanced visualization techniques",
-        "Data interpretation and analysis"
-      ]
+        "Data interpretation and analysis",
+      ],
     },
     {
       title: "Introduction to Modern AI",
@@ -352,12 +346,12 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certificate",
-          url: "YOUR_CERTIFICATE_LINK"
-        }
-      ]
-    }
+          url: "YOUR_CERTIFICATE_LINK",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -371,17 +365,16 @@ const blogSection = {
       url: "https://medium.com/@lawalfaruq50/improving-airline-bookings-through-predictive-analytics-39df4b3f4f29",
       title: "Improving Airline Bookings Through Predictive Analytics",
       description:
-        "Analysis of airline customer behavior using predictive modeling to enhance booking rates and customer experience."
+        "Analysis of airline customer behavior using predictive modeling to enhance booking rates and customer experience.",
     },
     {
       url: "https://medium.com/@lawalfaruq50/salary-prediction-with-machine-learning-analyzing-job-market-trends-using-glassdoor-data-6921796ae98b",
-      title:
-        "Salary Prediction with Machine Learning: Analyzing Job Market Trends",
+      title: "Salary Prediction with Machine Learning: Analyzing Job Market Trends",
       description:
-        "Exploring salary trends and predictions using machine learning on Glassdoor dataset to understand job market dynamics."
-    }
+        "Exploring salary trends and predictions using machine learning on Glassdoor dataset to understand job market dynamics.",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -390,34 +383,33 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+44-7407-279197",
-  email_address: "lawalfaruq50@gmail.com"
+  email_address: "lawalfaruq50@gmail.com",
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 // Talk Section
 const talkSection = {
-  display: false // Set to false to hide this section
+  display: false, // Set to false to hide this section
 };
 
 // Podcast Section
 const podcastSection = {
-  display: false // Set to false to hide this section
+  display: false, // Set to false to hide this section
 };
 
 export {
@@ -438,5 +430,5 @@ export {
   isHireable,
   resumeSection,
   talkSection, // Add this
-  podcastSection // Add this
+  podcastSection, // Add this
 };

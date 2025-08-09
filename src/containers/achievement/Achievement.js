@@ -16,18 +16,14 @@ export default function Achievement() {
           <div className="achievement-header">
             <h1
               className={
-                isDark
-                  ? "dark-mode heading achievement-heading"
-                  : "heading achievement-heading"
+                isDark ? "dark-mode heading achievement-heading" : "heading achievement-heading"
               }
             >
               {achievementSection.title}
             </h1>
             <p
               className={
-                isDark
-                  ? "dark-mode subTitle achievement-subtitle"
-                  : "subTitle achievement-subtitle"
+                isDark ? "dark-mode subTitle achievement-subtitle" : "subTitle achievement-subtitle"
               }
             >
               {achievementSection.subtitle}
@@ -44,7 +40,7 @@ export default function Achievement() {
                     description: card.subtitle,
                     image: card.image,
                     imageAlt: card.imageAlt,
-                    footer: card.footerLink
+                    footer: card.footerLink,
                   }}
                 />
               );

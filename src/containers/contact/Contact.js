@@ -15,36 +15,20 @@ export default function Contact() {
         <div className="contact-div-main">
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
-            <p
-              className={
-                isDark
-                  ? "dark-mode contact-subtitle"
-                  : "subTitle contact-subtitle"
-              }
-            >
+            <p className={isDark ? "dark-mode contact-subtitle" : "subTitle contact-subtitle"}>
               {contactInfo.subtitle}
             </p>
-            <div
-              className={
-                isDark ? "dark-mode contact-text-div" : "contact-text-div"
-              }
-            >
+            <div className={isDark ? "dark-mode contact-text-div" : "contact-text-div"}>
               {contactInfo.number && (
                 <>
-                  <a
-                    className="contact-detail"
-                    href={"tel:" + contactInfo.number}
-                  >
+                  <a className="contact-detail" href={"tel:" + contactInfo.number}>
                     {contactInfo.number}
                   </a>
                   <br />
                   <br />
                 </>
               )}
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
+              <a className="contact-detail-email" href={"mailto:" + contactInfo.email_address}>
                 {contactInfo.email_address}
               </a>
               <br />
@@ -56,10 +40,7 @@ export default function Contact() {
             {illustration.animated ? (
               <DisplayLottie animationData={email} />
             ) : (
-              <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
+              <img alt="Man working" src={require("../../assets/images/contactMailDark.svg")}></img>
             )}
           </div>
         </div>

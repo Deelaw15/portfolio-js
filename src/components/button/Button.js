@@ -4,7 +4,12 @@ import "./Button.scss";
 const Button = ({ text, className, href, newTab }) => {
   return (
     <div className={className}>
-      <a className="main-button" href={href} target={newTab ? "_blank" : "_self"} rel="noopener noreferrer">
+      <a
+        className="main-button"
+        href={href}
+        target={newTab ? "_blank" : "_self"}
+        rel="noopener noreferrer"
+      >
         {text}
       </a>
     </div>

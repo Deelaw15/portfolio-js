@@ -8,10 +8,7 @@ export default function Top() {
   }
   // When the user scrolls down 20px from the top of the document, show the button
   function scrollFunction() {
-    if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
-    ) {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       document.getElementById("topButton").style.visibility = "visible";
     } else {
       document.getElementById("topButton").style.visibility = "hidden";

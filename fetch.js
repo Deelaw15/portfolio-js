@@ -9,8 +9,10 @@ const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
 const MEDIUM_USERNAME = process.env.REACT_APP_MEDIUM_USERNAME?.replace("@", "");
 
 const ERR = {
-  noUserName: "Github Username was found to be undefined. Please set all relevant environment variables.",
-  requestFailed: "The request to GitHub didn't succeed. Check if GitHub token in your .env file is correct.",
+  noUserName:
+    "Github Username was found to be undefined. Please set all relevant environment variables.",
+  requestFailed:
+    "The request to GitHub didn't succeed. Check if GitHub token in your .env file is correct.",
   requestMediumFailed:
     "The request to Medium didn't succeed. Check if Medium username in your .env file is correct.",
 };

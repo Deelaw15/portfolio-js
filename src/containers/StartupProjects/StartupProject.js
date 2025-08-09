@@ -22,13 +22,7 @@ export default function StartupProject() {
       <div className="main" id="projects">
         <div>
           <h1 className="skills-heading">{bigProjects.title}</h1>
-          <p
-            className={
-              isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
-            }
-          >
+          <p className={isDark ? "dark-mode project-subtitle" : "subTitle project-subtitle"}>
             {bigProjects.subtitle}
           </p>
 
@@ -53,16 +47,10 @@ export default function StartupProject() {
                     </div>
                   ) : null}
                   <div className="project-detail">
-                    <h5
-                      className={isDark ? "dark-mode card-title" : "card-title"}
-                    >
+                    <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
                       {project.projectName}
                     </h5>
-                    <p
-                      className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
-                      }
-                    >
+                    <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
                       {project.projectDesc}
                     </p>
                     {project.footerLink ? (
@@ -71,9 +59,7 @@ export default function StartupProject() {
                           return (
                             <span
                               key={i}
-                              className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
-                              }
+                              className={isDark ? "dark-mode project-tag" : "project-tag"}
                               onClick={() => openUrlInNewTab(link.url)}
                             >
                               {link.name}

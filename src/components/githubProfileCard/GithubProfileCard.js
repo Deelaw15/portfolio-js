@@ -42,18 +42,12 @@ export default function GithubProfileCard({ prof }) {
               </div>
             )}
             <div className="opp-div">
-              <span className="desc-prof">
-                Open for opportunities: {prof.hireable}
-              </span>
+              <span className="desc-prof">Open for opportunities: {prof.hireable}</span>
             </div>
             <SocialMedia />
           </div>
           <div className="image-content-profile">
-            <img
-              src={prof.avatarUrl}
-              alt={prof.name}
-              className="profile-image"
-            />
+            <img src={prof.avatarUrl} alt={prof.name} className="profile-image" />
           </div>
         </div>
       </div>
