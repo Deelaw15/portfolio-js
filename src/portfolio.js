@@ -279,6 +279,11 @@ const bigProjects = {
       ]
     }
   ],
+  moreProjects: {
+    title: "More Projects",
+    link: "https://github.com/Deelaw15",
+    buttonText: "View More Projects"
+  },
   display: true
 };
 

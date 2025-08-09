@@ -1,61 +1,61 @@
-fs = require("fs");
+const fs = require("fs");
 const https = require("https");
-process = require("process");
+const process = require("process");
 require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
 const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
-const MEDIUM_USERNAME = process.env.REACT_APP_MEDIUM_USERNAME?.replace('@', '');
+const MEDIUM_USERNAME = process.env.REACT_APP_MEDIUM_USERNAME?.replace("@", "");
 
 const ERR = {
-  noUserName:
-    "Github Username was found to be undefined. Please set all relevant environment variables.",
-  requestFailed:
-    "The request to GitHub didn't succeed. Check if GitHub token in your .env file is correct.",
-  requestFailedMedium:
-    "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
+  noUserName: "Github Username was found to be undefined. Please set all relevant environment variables.",
+  requestFailed: "The request to GitHub didn't succeed. Check if GitHub token in your .env file is correct.",
+  requestMediumFailed:
+    "The request to Medium didn't succeed. Check if Medium username in your .env file is correct.",
 };
+
 if (USE_GITHUB_DATA === "true") {
   if (GITHUB_USERNAME === undefined) {
     throw new Error(ERR.noUserName);
   }
 
   console.log(`Fetching profile data for ${GITHUB_USERNAME}`);
-  var data = JSON.stringify({
+  const data = JSON.stringify({
     query: `
-{
-  user(login:"${GITHUB_USERNAME}") { 
-    name
-    bio
-    avatarUrl
-    location
-    pinnedItems(first: 6, types: [REPOSITORY]) {
-      totalCount
-      edges {
-          node {
-            ... on Repository {
-              name
-              description
-              forkCount
-              stargazers {
-                totalCount
-              }
-              url
-              id
-              diskUsage
-              primaryLanguage {
-                name
-                color
+      {
+        user(login:"${GITHUB_USERNAME}") { 
+          name
+          bio
+          avatarUrl
+          location
+          pinnedItems(first: 6, types: [REPOSITORY]) {
+            totalCount
+            edges {
+              node {
+                ... on Repository {
+                  name
+                  description
+                  forkCount
+                  stargazers {
+                    totalCount
+                  }
+                  url
+                  id
+                  diskUsage
+                  primaryLanguage {
+                    name
+                    color
+                  }
+                }
               }
             }
           }
         }
       }
-    }
-}
-`
+    `,
   });
+
   const default_options = {
     hostname: "api.github.com",
     path: "/graphql",
@@ -63,8 +63,8 @@ if (USE_GITHUB_DATA === "true") {
     method: "POST",
     headers: {
       Authorization: `Bearer ${GITHUB_TOKEN}`,
-      "User-Agent": "Node"
-    }
+      "User-Agent": "Node",
+    },
   };
 
   const req = https.request(default_options, (res) => {
@@ -78,6 +78,7 @@ if (USE_GITHUB_DATA === "true") {
     res.on("data", (d) => {
       data += d;
     });
+
     res.on("end", () => {
       fs.writeFile("./public/profile.json", data, function (err) {
         if (err) return console.log(err);
@@ -100,7 +101,7 @@ if (MEDIUM_USERNAME !== undefined) {
     hostname: "api.rss2json.com",
     path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
     port: 443,
-    method: "GET"
+    method: "GET",
   };
 
   const req = https.request(options, (res) => {
@@ -114,6 +115,7 @@ if (MEDIUM_USERNAME !== undefined) {
     res.on("data", (d) => {
       mediumData += d;
     });
+
     res.on("end", () => {
       fs.writeFile("./public/blogs.json", mediumData, function (err) {
         if (err) return console.log(err);
