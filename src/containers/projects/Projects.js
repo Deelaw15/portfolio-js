@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
-import "./Project.scss";
-import Button from "../../components/button/Button";
-import { openSource, socialMediaLinks } from "../../portfolio";
+import "./Projects.scss"; // Update this import if needed
+import { bigProjects } from "../../portfolio";
+import Button from "../../components/button/Button"; // Make sure this path is correct
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -41,28 +42,28 @@ export default function Projects() {
   }
   if (
     !(typeof repo === "string" || repo instanceof String) &&
-    openSource.display
+    bigProjects.display // Changed from openSource.display to bigProjects.display
   ) {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="projects">
-          <div className="projects-main-div">
-            <h1 className="project-title">Open Source Projects</h1>
-            <div className="repo-cards-div-main">
-              {repo.map((v, i) => {
-                if (!v) {
-                  console.error(
-                    `Github Object for repository number : ${i} is undefined`
-                  );
-                }
-                return <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />;
-              })}
+          <div>
+            <h1 className="skills-heading">{bigProjects.title}</h1>
+            <p className="projects-subtitle">{bigProjects.subtitle}</p>
+            <div className="projects-container">
+              {repo.map((v, i) => (
+                <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
+              ))}
             </div>
+
+            {/* Add console.log to debug */}
+            {console.log("bigProjects:", bigProjects)}
+
             <Button
-              text={"More Projects"}
-              className="project-button"
-              href={socialMediaLinks.github}
+              text="View More Projects"
+              href="https://github.com/Deelaw15?tab=repositories"
               newTab={true}
+              className="project-button"
             />
           </div>
         </div>

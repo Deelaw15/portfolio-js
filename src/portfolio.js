@@ -219,8 +219,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Featured Projects",
-  subtitle: "DATA SCIENCE AND MACHINE LEARNING SOLUTIONS WITH BUSINESS IMPACT",
+  title: "Projects",
+  subtitle: "SOME OF MY PROJECTS",
   projects: [
     {
       image: require("./assets/images/vodaphone.webp"),
