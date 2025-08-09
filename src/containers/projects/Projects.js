@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
-import "./Projects.scss"; // Update this import if needed
+import "./Projects.scss";
 import { bigProjects } from "../../portfolio";
-import Button from "../../components/button/Button"; // Make sure this path is correct
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
 
@@ -46,7 +45,7 @@ export default function Projects() {
   ) {
     return (
       <Suspense fallback={renderLoader()}>
-        <div className="main" id="projects">
+        <div className="main" id="Featured projects">
           <div>
             <h1 className="skills-heading">{bigProjects.title}</h1>
             <p className="projects-subtitle">{bigProjects.subtitle}</p>
@@ -56,15 +55,43 @@ export default function Projects() {
               ))}
             </div>
 
-            {/* Add console.log to debug */}
-            {console.log("bigProjects:", bigProjects)}
+            {/* Add this debug div to check if we reach this point */}
+            <div
+              style={{
+                padding: "20px",
+                backgroundColor: "red",
+                color: "white",
+              }}
+            >
+              Debug marker
+          </div>
 
-            <Button
-              text="View More Projects"
-              href="https://github.com/Deelaw15?tab=repositories"
-              newTab={true}
-              className="project-button"
-            />
+            {/* Direct button implementation */}
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                marginTop: "3rem",
+                marginBottom: "2rem",
+              }}
+            >
+              <a
+                style={{
+                  textDecoration: "none",
+                  color: "#fff",
+                  backgroundColor: "#55198b",
+                  padding: "15px 30px",
+                  borderRadius: "6px",
+                  fontWeight: "700",
+                  fontSize: "1.1rem",
+                }}
+                href="https://github.com/Deelaw15"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View More Projects
+              </a>
+            </div>
           </div>
         </div>
       </Suspense>
