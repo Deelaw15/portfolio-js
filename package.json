@@ -1,6 +1,6 @@
 {
-  "homepage": "https://deelaw15.github.io/dataFolio",
-  "name": "developerfolio",
+  "homepage": "https://deelaw15.github.io/portfolio-js",
+  "name": "datafolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
