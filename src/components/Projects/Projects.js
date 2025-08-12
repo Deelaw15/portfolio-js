@@ -14,10 +14,8 @@ export default function Projects() {
       <div>
         {bigProjects?.title && <h1 className="skills-heading">{bigProjects.title}</h1>}
         {bigProjects?.subtitle && <p className="projects-subtitle">{bigProjects.subtitle}</p>}
-        
-        <div className="projects-container">
-          {/* ...existing project cards... */}
-        </div>
+
+        <div className="projects-container">{/* ...existing project cards... */}</div>
 
         {more?.link && (
           <div className="more-projects-container">
