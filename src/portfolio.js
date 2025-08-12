@@ -23,9 +23,9 @@ const greeting = {
   username: "Faruq Lawal",
   title: "Hi all, I'm Faruq",
   subTitle: emoji(
-    " An impact-driven Data Scientist 🧠 with hands-on experience building churn prediction tools, fraud detection systems, and data dashboards using Python, SQL, PowerBi and MLops tools"
+    "Data Scientist with hands-on experience in machine learning, MLOps, and analytics. I build real-world solutions; from 🔁 churn prediction systems to 🔐 fraud detection pipelines, that help businesses make smarter, faster decisions."
   ),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "https://drive.google.com/file/d/14_KZtnlfxT1CHPRk8NtmJxY_nOL-yKAa/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -298,7 +298,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certificate",
-          url: "YOUR_CERTIFICATE_LINK",
+          url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/tMjbs76F526fF5v3G/NjynCWzGSaWXQCxSX_tMjbs76F526fF5v3G_4Pvsn7AgLprgrwy2F_1733016649357_completion_certificate.pdf",
         },
       ],
       descBullets: [
@@ -330,7 +330,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certificate",
-          url: "YOUR_CERTIFICATE_LINK",
+          url: "https://courses.edx.org/certificates/17a8ba98f2214b49bf99af09850bfdd9",
         },
       ],
       descBullets: [
@@ -346,7 +346,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certificate",
-          url: "YOUR_CERTIFICATE_LINK",
+          url: "https://www.credly.com/badges/ea32eb94-5e3e-4555-a2db-544f80a087d5/public_urlOUR_CERTIFICATE_LINK",
         },
       ],
     },
