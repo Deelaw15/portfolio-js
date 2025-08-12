@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/dataFolio/static/css/main.44eec64e.css",
+    "main.js": "/dataFolio/static/js/main.51a4e165.js",
+    "static/css/487.bb36206c.chunk.css": "/dataFolio/static/css/487.bb36206c.chunk.css",
+    "static/js/487.7ae187c0.chunk.js": "/dataFolio/static/js/487.7ae187c0.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/dataFolio/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.567a0b93.chunk.js": "/dataFolio/static/js/990.567a0b93.chunk.js",
+    "static/media/freelancer.png": "/dataFolio/static/media/freelancer.79968319c738d7a1d3e3.png",
+    "static/media/Montserrat-Regular.ttf": "/dataFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/resume.pdf": "/dataFolio/static/media/resume.19f984afdfaf97957d3f.pdf",
+    "static/media/osu.png": "/dataFolio/static/media/osu.8707df97faedf94b5171.png",
+    "static/media/british.png": "/dataFolio/static/media/british.9b68f9eebfa55f7ad560.png",
+    "static/media/Agustina.woff": "/dataFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/dataFolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/dataFolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/fraud.jpg": "/dataFolio/static/media/fraud.4edf382d35f040d3d7a8.jpg",
+    "static/media/developerActivity.svg": "/dataFolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/quantum.jpg": "/dataFolio/static/media/quantum.d9514f80acdee2dc8971.jpg",
+    "static/media/skill.svg": "/dataFolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/construction.avif": "/dataFolio/static/media/construction.e3f409d496cd360dd084.avif",
+    "index.html": "/dataFolio/index.html",
+    "static/media/vodaphone.webp": "/dataFolio/static/media/vodaphone.b3032b556be26a8ebfdf.webp",
+    "static/media/talksCardBack.svg": "/dataFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.44eec64e.css.map": "/dataFolio/static/css/main.44eec64e.css.map",
+    "main.51a4e165.js.map": "/dataFolio/static/js/main.51a4e165.js.map",
+    "487.bb36206c.chunk.css.map": "/dataFolio/static/css/487.bb36206c.chunk.css.map",
+    "487.7ae187c0.chunk.js.map": "/dataFolio/static/js/487.7ae187c0.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/dataFolio/static/css/990.c6a7ee28.chunk.css.map",
+    "990.567a0b93.chunk.js.map": "/dataFolio/static/js/990.567a0b93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44eec64e.css",
+    "static/js/main.51a4e165.js"
+  ]
+}
