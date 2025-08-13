@@ -129,7 +129,6 @@ const educationInfo = {
       desc: "Leveraged data analytics to research fiber optics adoption in the construction industry, combining qualitative insights with quantitative analysis.",
       descBullets: [
         "Conducted and analyzed industry expert surveys using data visualization techniques to identify adoption trends",
-        "Performed statistical analysis on survey responses to quantify implementation barriers and opportunities",
         "Created data-driven recommendations using charts and visualizations to communicate findings effectively",
       ],
     },
@@ -138,10 +137,9 @@ const educationInfo = {
       logo: require("./assets/images/osu.png"),
       subHeader: "Bachelor of Engineering in Civil Engineering",
       duration: "September 2014 - April 2019",
-      desc: "Graduated in top 10% of class. Conducted research on soil improvement techniques through additive testing.",
+      desc: "Conducted research on soil improvement techniques through additive testing.",
       descBullets: [
         "Performed extensive soil testing to analyze the impact of various additives on soil properties",
-        "Investigated soil stabilization methods and their effects on construction quality",
         "Applied data analysis to evaluate and compare different soil treatment approaches",
       ],
     },
