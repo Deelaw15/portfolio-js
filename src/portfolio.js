@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Faruq Lawal",
-  title: "Hi all, I'm Faruq",
+  title: "Hi Welcome, I'm Faruq",
   subTitle: emoji(
     "Data Scientist with hands-on experience in machine learning, MLOps, and analytics. I build real-world solutions; from 🔁 churn prediction systems to 🔐 fraud detection pipelines, that help businesses make smarter, faster decisions."
   ),
