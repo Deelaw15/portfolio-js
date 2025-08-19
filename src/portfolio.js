@@ -23,7 +23,7 @@ const greeting = {
   username: "Faruq Lawal",
   title: "Hi Welcome, I'm Faruq",
   subTitle: emoji(
-    "Data Scientist with hands-on experience in machine learning, MLOps, and analytics. I build real-world solutions; from 🔁 churn prediction systems to 🔐 fraud detection pipelines, that help businesses make smarter, faster decisions."
+    "A Data Scientist with hands-on experience in machine learning, MLOps, and analytics. I build real-world solutions; from 🔁 churn prediction systems to 🔐 fraud detection pipelines, that help businesses make smarter, faster decisions."
   ),
   resumeLink: "https://drive.google.com/file/d/14_KZtnlfxT1CHPRk8NtmJxY_nOL-yKAa/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
