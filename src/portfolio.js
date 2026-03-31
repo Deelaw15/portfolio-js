@@ -125,7 +125,7 @@ const educationInfo = {
       schoolName: "University of Portsmouth",
       logo: require("./assets/images/uopp.png"),
       subHeader: "Master of Science in Civil Engineering",
-      duration: "September 2023 - May 2014",
+      duration: "September 2023 - May 2024",
       desc: "Leveraged data analytics to research fiber optics adoption in the construction industry, combining qualitative insights with quantitative analysis.",
       descBullets: [
         "Conducted and analyzed industry expert surveys using data visualization techniques to identify adoption trends",
